@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*
+{
+  margin:0;
+  padding:0;
+  font-family:'poppins','sans-serif';
+  box-sizing:border-box;
+}
+.navbar
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#085454;
+    color:white;
+    height:85px;
+    position:fixed;
+    width:100%;
+}  
+.logo
+{
+    font-size:25px;
+    font-weight:500;
+    margin:8px;
+    padding:24px;
+}
+.logo:hover
+{
+    color:white;
+    text-shadow:0 0 25px white,
+                0 0 25px white;
+    transform:scale(1.1);
+ 
+}
+.navbar-links ul
+{
+    display:flex;
+}
+.navbar-links ul li
+{
+    list-style:none;
+}
+.navbar-links ul li a
+{
+    color:white;
+    text-decoration:none;
+    padding:24px;
+    display:block;
+    font-size:20px;
+}
+.navbar-links ul li:hover
+{
+    background-color:orangered;
+}
+.btn
+{
+    background:white;
+    padding:8px;
+    border-radius:6px;
+    margin:8px;
+}
+.btn a
+{
+    text-decoration:none;
+    color:#085454;
+    font-size:20px;
+}
+.btn:hover
+{
+    background:orangered;
+}
+.pro1
+{
+    display:flex;
+    justify-content:center;
+    border:2px solid #7a7a7a;
+    height:340px;
+    width:1000px;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+    margin-left:180px;
+    flex-direction:column;
+    border-radius:15px;
+    margin-top:20px;
+}
+.pro1:hover
+{
+    background:pink;
+}
+h5
+{
+    color:#085454;
+    font-size:26px;
+}
+p
+{
+    color:#7a7a7a;
+    font-size:20px;
+}
+.button1
+{
+    border-radius:5px;
+    width:200px;
+    height:70px;
+    background:#085454;
+}
+.button1:hover
+{
+    background:orangered;
+}
+.button1 a
+{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+}
